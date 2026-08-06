@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+</head>
+
+<body>
+
+<center>
+<h1>Harmonic Musics</h1>
+<br>
+<form onsubmit="abrirVideo(event)">
+
+<h1>Login</h1>
+
+<input type="text" placeholder="E-mail" required>
+<br><br>
+
+<input type="password" placeholder="Password" required>
+<br><br>
+
+<button type="submit">Login</button>
+
+</form>
+
+</center>
+
+<script>
+function abrirVideo(event){
+    event.preventDefault();
+    window.location.href = "musica.mp4";
+}
+</script>
+
+</body>
+</html>
