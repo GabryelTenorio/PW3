@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonic</title>
+</head>
+<body>
+<h1>Olá Usuário</h1>    
+<h2>Suas Junkbox</h2>
+
+<div class="grid-imagens">
+<img src="images (7).jpg" alt="">
+<img src="images (2).jpg" alt="">
+<img src="images (3).jpg" alt="">
+<img src="images (4).jpg" alt="">
+<img src="images (5).jpg" alt="">
+<img src="images (6).jpg" alt="">
+<img src="images.jpg" alt="">
+<img src="images (9).jpg" alt="">
+<img src="images (8).jpg" alt="">
+
+
+</div>
+
+<h2>Músicas Em Alta</h2> <br>
+
+<div class="grid-imagens">
+<img src="images (4).jpg" alt="">
+<img src="images (5).jpg" alt="">
+<img src="images (6).jpg" alt="">
+</div>
+
+<h2>Suas Playlist</h2>
+
+<div class="playlist">
+<img src="images (10).jpg" alt="">
+<img src="images (11).jpg" alt="">
+<img src="images (12).jpg" alt="">
+<img src="images (13).jpg" alt="">
+</div>
+
+<style>
+
+.playlist {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    gap: 10px;
+    max-width: 600px;
+}
+.musicas-alta {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    max-width: 600px;
+}
+.grid-imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+}
+
+.playlist img,
+.musicas-alta img {
+    width: 100%;
+    height: 100px; /* tamanho igual para todas */
+    object-fit: cover;
+    display: block;
+}
+
+.grid-imagens img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+</style>
+</body>
+<footer>
+    
+</footer>
+</html>
